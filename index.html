@@ -29,6 +29,7 @@
   <script src="script.js" defer></script>
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
 
   <header class="site-header">
     <div class="header-inner">
@@ -53,7 +54,8 @@
         </span>
       </a>
       <nav class="site-nav" aria-label="Sections">
-        <a href="#platform">Platform</a>
+        <a href="#platform" class="nav-wide">Platform</a>
+        <a href="#research">Research</a>
         <a href="#about">About</a>
         <a href="#results">Results</a>
         <a href="#contact">Contact</a>
@@ -61,7 +63,7 @@
     </div>
   </header>
 
-  <main>
+  <main id="main">
     <section id="top" class="hero">
       <div class="hero-copy">
         <p class="kicker">Founded 2026 &middot; Umeå</p>
@@ -121,6 +123,31 @@
       </div>
     </section>
 
+    <section id="research" class="section">
+      <p class="kicker">Research</p>
+      <div class="rule"></div>
+      <h2>Research and analysis.</h2>
+      <p>Studies of how a company's fundamentals relate to its stock returns. The first two are theses in economics.</p>
+      <ul class="papers">
+        <li class="paper-item">
+          <p class="paper-meta">Master's thesis<br>2025</p>
+          <div>
+            <h3><a href="research/semiconductor-formula/">A Formula for Investing in the Semiconductor Industry</a></h3>
+            <p>Which fundamentals predict semiconductor stock returns? Across fifty firms and seventeen years, return on assets is the one that holds up.</p>
+            <a class="paper-link" href="research/semiconductor-formula/">Read the summary</a>
+          </div>
+        </li>
+        <li class="paper-item">
+          <p class="paper-meta">Bachelor's thesis<br>2024</p>
+          <div>
+            <h3><a href="research/renewable-energy-formula/">A Formula for Investing in the Renewable Energy Sector</a></h3>
+            <p>A screen for renewable energy stocks built on return on assets and revenue growth, tested on a six-stock portfolio from 2018 to 2023.</p>
+            <a class="paper-link" href="research/renewable-energy-formula/">Read the summary</a>
+          </div>
+        </li>
+      </ul>
+    </section>
+
     <section id="about" class="section">
       <p class="kicker">About</p>
       <div class="rule"></div>
@@ -178,7 +205,7 @@
       <div class="rule"></div>
       <h2>Get in touch.</h2>
       <p>Questions about Balk Investmentbolag are welcome by e-mail.</p>
-      <a class="button button-outline" href="mailto:balkinvestmentbolag@gmail.com">balkinvestmentbolag@gmail.com</a>
+      <a class="button button-gold" href="mailto:balkinvestmentbolag@gmail.com">balkinvestmentbolag@gmail.com</a>
     </section>
   </main>
 
@@ -197,6 +224,8 @@
         <polygon points="36,5 48,0 48,60 36,60" fill="url(#footer-gold)" />
       </svg>
       <span>&copy; 2026 Balk Investmentbolag</span>
+      <span aria-hidden="true">&middot;</span>
+      <a href="/privacy/">Privacy</a>
     </div>
     <p class="legal">Balk Investmentbolag is a simple partnership (enkelt bolag) in which the co-owners invest their own capital together. We do not accept or manage capital for outside parties, we conduct no financial activity that requires authorisation, and we are not supervised by Finansinspektionen, the Swedish Financial Supervisory Authority. The content of this website is for information only: it is neither investment advice nor an offer to buy or sell securities.</p>
   </footer>
