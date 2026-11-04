@@ -1,4 +1,4 @@
-// Balk Investmentbolag - the website's one script: a gold play button on the
+// Balk Invest - the website's one script: a gold play button on the
 // film. The page is complete without it; the film then has the browser's own
 // controls from the start.
 
