@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://balkinvestmentbolag.se/sitemap.xml
+Sitemap: https://balkinvest.se/sitemap.xml
